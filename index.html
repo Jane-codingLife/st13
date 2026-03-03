@@ -84,6 +84,7 @@
             border-radius: 120px;
             text-align: center;
             line-height: 120px;
+            transition: transform 1s;
         }
 
         .circle02 {
@@ -96,6 +97,11 @@
 
         .section02 a {
             font-size: 25px;
+        }
+
+        .circle:hover {
+            box-shadow: var(--shadow-01);
+            transform: rotate(360deg) scale(1.1);
         }
     </style>
 </head>
