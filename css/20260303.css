@@ -61,4 +61,6 @@ body {
   /* 從薄荷青到淺藍的淡雅過渡，適合乾淨、輕盈的區塊設計 */
   --sky-grad-C: linear-gradient(135deg, var(--sky-blue05) 0%, var(--sky-blue03) 100%);
 
+  --shadow-01: 0px 0px 8px 5px var(--sky-deep01)
+
 }
